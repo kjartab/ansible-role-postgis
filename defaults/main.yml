@@ -1,2 +1,6 @@
 ---
-# defaults file for postgis
+postgis:
+  version:
+    major: 2
+    minor: 3
+

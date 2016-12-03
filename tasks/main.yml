@@ -1,2 +1,3 @@
 ---
-# tasks file for postgis
+- name: Install postgresql
+  apt: name=postgresql-{{postgresql.version.major}}.{{postgresql.version.minor}}-postgis-{{postgis.version.major}}.{{postgis.version.minor}} state=present
