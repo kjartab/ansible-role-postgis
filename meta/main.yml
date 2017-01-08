@@ -16,4 +16,4 @@ galaxy_info:
 
 dependencies: 
   # - kjartab.postgresql
-  - ansible-role-postgresql
+  - kjartab.postgresql
