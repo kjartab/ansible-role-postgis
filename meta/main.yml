@@ -15,4 +15,5 @@ galaxy_info:
   galaxy_tags: [postgresql, postgis]
 
 dependencies: 
-  - kjartab.postgresql
+  # - kjartab.postgresql
+  - ansible-role-postgresql
