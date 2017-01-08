@@ -1,4 +1,7 @@
 ---
+- apt_repository:
+    repo: 'ppa:ubuntugis/ubuntugis-unstable'
+
 - name: GDAL
   apt: name={{item}}
   with_items: 
