@@ -1,16 +1,5 @@
 ---
-- apt_repository:
-    repo: 'ppa:ubuntugis/ubuntugis-unstable'
-
-- name: GDAL
-  apt: name={{item}}
-  with_items: 
-    - libgeos-c1v5
-    - libgdal20
-    - gdal-bin 
-    - python-gdal 
-    - python3-gdal
-
+- apt: update_cache=yes
 
 - name: Install postgresql
   apt: name=postgresql-{{postgresql.version.major}}.{{postgresql.version.minor}}-postgis-{{postgis.version.major}}.{{postgis.version.minor}} state=present

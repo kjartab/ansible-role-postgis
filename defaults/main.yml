@@ -3,4 +3,5 @@ postgis:
   version:
     major: 2
     minor: 3
+postgis_dev: false
 
