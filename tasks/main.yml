@@ -1,5 +1,5 @@
 ---
 - apt: update_cache=yes
 
-- name: Install postgresql
+- name: Install postgis
   apt: name=postgresql-{{postgresql.version.major}}.{{postgresql.version.minor}}-postgis-{{postgis.version.major}}.{{postgis.version.minor}} state=present
